@@ -1,13 +1,13 @@
 {% set name = "zope.deferredimport" %}
-{% set version = "4.3.1" %}
+{% set version = "6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 57b2345e7b5eef47efcd4f634ff16c93e4265de3dcf325afc7315ade48d909e1
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zope_deferredimport-{{ version }}.tar.gz
+  sha256: dcceab59470497adb1bf32051a12355cde4e7f629ae1d21ac16ba830bc717fed
 
 build:
   noarch: python
